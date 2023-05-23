@@ -9,7 +9,10 @@
 ## Description:
 - Images in "N" folder are images without defect whereas images with "P" folder are images showing Pittings.
 
-##
+## Result:
+| Accuracy | Precision | Recall | F1 ratio |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 97.2 | 96.9574 | 97.3523 | 97.1544 |
 
 ## Data Source:
 - [KITOpenData](https://bwdatadiss.kit.edu/dataset/323#headingFileList)
