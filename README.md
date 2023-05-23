@@ -9,6 +9,11 @@
 ## Description:
 - Images in "N" folder are images without defect whereas images with "P" folder are images showing Pittings.
 
+## Work Done:
+- The development process involves several key steps. First, the dataset is preprocessed to ensure uniformity and improve the model's training efficiency. This includes resizing, normalization, and augmentation techniques to increase the dataset size and address any class imbalance issues.
+- Next, the VGG19 model is loaded and adapted for transfer learning. The pre-trained layers are frozen to preserve the learned features, while a custom classification head is added to the network. The weights of the added layers are then trained on the ball screw drive defect dataset using techniques such as backpropagation and gradient descent.
+- To evaluate the performance of the trained model, a comprehensive set of metrics is employed, including accuracy, precision, recall, and F1 score. 
+
 ## Result:
 
 | Metric    | Value     |
